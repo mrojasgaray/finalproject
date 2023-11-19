@@ -165,7 +165,7 @@ body.dark-mode {
     background-color: #ffffff
   }
 
-  #message {
+#message {
     background: #E9FFE4;
     border: 1px solid #178201;
     padding: 20px 40px;
@@ -173,13 +173,13 @@ body.dark-mode {
     border-radius: 4px;
     opacity: 1;
     transition: opacity .2s ease;
-  }
+}
   
-  #message.dismissed {
+#message.dismissed {
     opacity: 0;
     height: 0;
-  }
+}
   
-  #message button {
+#message button {
     float: right;
-  }
+}
