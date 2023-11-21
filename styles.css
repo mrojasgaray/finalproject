@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0;
+    background-color: #DCF5FF;
 }
 
 .container {
@@ -70,8 +71,7 @@ figure {
 }
 
 figure.main-image {
-    background: PaleVioletRed;
-    border-color: MediumVioletRed;
+    background: #1C304A;
     color: #ffffff;
     margin-bottom: 32px;
 }
@@ -80,7 +80,7 @@ figure.main-image {
     figure.section-image {
         max-width: 320px;
         float: right;
-        margin: -20px -62px 32px 20px;     
+        margin: -20px -62px 32px 20px;
 }
 
 img {
@@ -113,7 +113,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: mediumvioletred;
+    color: #1C304A;
     text-decoration: none;
     padding: 12px;
     display: block;
@@ -124,12 +124,12 @@ nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom: 3px solid #5d3754;
+    border-bottom: 3px solid #c06298;
     padding-bottom: 9px;
 }
 
 header nav ul {
-    border-top: 2px solid #5d3754;
+    border-top: 1px solid #5d3754;
     border-bottom: 1px solid #5d3754;
 }
 
@@ -150,7 +150,7 @@ footer nav ul a:hover {
         padding: 32px 0;
         margin-top: 64px;
         text-align: center;
-        background-color:#5d3754;
+        background-color:#1C304A;
         color: white;
     }
 }
