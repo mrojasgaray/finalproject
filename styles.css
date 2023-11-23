@@ -181,12 +181,14 @@ footer nav ul a:hover {
 .leftcolumn {
     float: left;
     width: 75%;
+    padding-left: 40px;
 }
 
 .rightcolumn {
     float: left;
     width: 25%;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .card {
