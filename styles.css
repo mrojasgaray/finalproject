@@ -39,12 +39,6 @@ h2 {
     margin-top: 48px;
 }
 
-h3 {
-    font-weight: 300;
-    margin-bottom: 0;
-    margin-top: 48px;
-}
-
 p {
     line-height: 1.25;
     margin-bottom: 1.25em;
@@ -68,12 +62,6 @@ figure {
         height: auto;
         margin-bottom: 12px;
     }
-}
-
-figure.main-image {
-    background: #1C304A;
-    color: #ffffff;
-    margin-bottom: 32px;
 }
 
 @media all and (min-width: 768px) {
@@ -153,25 +141,6 @@ footer nav ul a:hover {
         background-color:#1C304A;
         color: white;
     }
-}
-
-#message {
-    background: #E9FFE4;
-    border: 1px solid #178201;
-    padding: 20px 40px;
-    margin: 12px 0;
-    border-radius: 4px;
-    opacity: 1;
-    transition: opacity .2s ease;
-}
-  
-#message.dismissed {
-    opacity: 0;
-    height: 0;
-}
-  
-#message button {
-    float: right;
 }
 
 * {
